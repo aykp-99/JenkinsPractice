@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from your repository
-                git 'https://github.com/yourusername/my-python-app.git'
+                git 'https://github.com/aykp-99/JenkinsPractice.git'
             }
         }
 
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Install dependencies
                 script {
-                    sh 'pip install -r requirements.txt'
+                    sh 'pip install -r requirement.txt'
                 }
             }
         }
