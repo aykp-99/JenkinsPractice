@@ -22,7 +22,7 @@ pipeline {
             steps {
                 // Run tests
                 script {
-                    sh 'pytest'
+                    bat 'pytest'
                 }
             }
         }
